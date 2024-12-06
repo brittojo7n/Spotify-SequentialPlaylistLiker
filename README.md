@@ -67,14 +67,6 @@ A Python script to like all songs in a Spotify playlist in the same order as the
 
 ---
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`feature-branch-name`).
-3. Submit a pull request with a clear description of your changes.
-
----
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
