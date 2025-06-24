@@ -13,7 +13,7 @@ CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
 
 # Playlist ID (replace with your playlist ID)
-PLAYLIST_ID = "24kH4QpTd1ha5AyiWR3rOs"
+PLAYLIST_ID = "<playlist_id>"
 
 # Spotify API Scopes
 SCOPE = "playlist-read-private user-library-read user-library-modify"
