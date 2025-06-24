@@ -32,10 +32,10 @@ A Python script to like all songs in a Spotify playlist in the same order as the
 2. **Install Dependencies**:
    Use `pip` to install the required packages:
    ```bash
-   pip install python-dotenv
+   pip install -r requirements.txt
    ```
 
-3. **Set Up Environment Variables**:
+4. **Set Up Environment Variables**:
    - Create a `.env` file in the project directory with the following content:
      ```plaintext
      SPOTIFY_CLIENT_ID=your_client_id
