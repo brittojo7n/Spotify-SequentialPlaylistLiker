@@ -79,7 +79,7 @@ def like_tracks_with_shorter_delays(tracks, delay):
             print(f"{playlist_index + 1}. Liked: {track_name} by {artist_name}")
             total_liked += 1
         else:
-            print(f"{playlist_index + 1}. Failed to confirm liking: {track_name} by {artist_name}")s
+            print(f"{playlist_index + 1}. Failed to confirm liking: {track_name} by {artist_name}")
         time.sleep(delay)
     print(f"Total liked songs: {total_liked}")
 
