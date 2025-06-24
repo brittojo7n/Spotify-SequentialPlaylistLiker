@@ -1,4 +1,4 @@
-# Spotify Playlist Liker
+# Spotify Sequential Playlist Liker
 
 A Python script to like all songs in a Spotify playlist in the same order as they appear. This project uses the Spotify Web API to automate the process of liking songs while preserving the playlist's original sequence.
 
