@@ -40,6 +40,7 @@ A Python script to like all songs in a Spotify playlist in the same order as the
      ```plaintext
      SPOTIFY_CLIENT_ID=your_client_id
      SPOTIFY_CLIENT_SECRET=your_client_secret
+     SPOTIFY_PLAYLIST_ID=your_playlist_id
      SPOTIFY_REDIRECT_URI=http://localhost:8888/callback/
      ```
    - Replace `your_client_id` and `your_client_secret` with the credentials from your Spotify Developer account.
