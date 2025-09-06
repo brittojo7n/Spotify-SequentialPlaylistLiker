@@ -35,7 +35,7 @@ A Python script to like all songs in a Spotify playlist in the same order as the
    pip install -r requirements.txt
    ```
 
-4. **Set Up Environment Variables**:
+3. **Set Up Environment Variables**:
    - Create a `.env` file in the project directory with the following content:
      ```plaintext
      SPOTIFY_CLIENT_ID=your_client_id
@@ -44,25 +44,17 @@ A Python script to like all songs in a Spotify playlist in the same order as the
      SPOTIFY_REDIRECT_URI=http://localhost:8888/callback/
      ```
    - Replace `your_client_id` and `your_client_secret` with the credentials from your Spotify Developer account.
+   - Replace `your_playlist_id` with the exact playlist you wish to like the songs from. **If playlist URL is `https://open.spotify.com/playlist/24kH4QpTd1ha5AyiWR3rOs?si=9ecf8ae8812b4207` then playlist ID is `24kH4QpTd1ha5AyiWR3rOs`.**
 
 ---
 
-## Usage
-1. **Edit index.py.
-   Open index.py with any editor such as notepad and edit the below line with the playlist id. You can get your playlist id by copying the playlist url.
-   ```bash
-   # Playlist ID (replace with your playlist ID)
-   PLAYLIST_ID = "<playlist_id>"
-   ```   
-   Example: If playlist URL is `https://open.spotify.com/playlist/24kH4QpTd1ha5AyiWR3rOs?si=9ecf8ae8812b4207` then playlist ID is `24kH4QpTd1ha5AyiWR3rOs`.
-
-3. **Run the Script**:
+4. **Run the Script**:
    Execute the Python script to like the songs in your playlist:
    ```bash
    python index.py
    ```
 
-4. **Verify**:
+5. **Verify**:
    - Check your Spotify account to confirm the liked songs.
    - The script logs each track as it processes them.
 
