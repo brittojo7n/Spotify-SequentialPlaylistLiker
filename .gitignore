@@ -5,3 +5,4 @@ __pycache__/
 .env
 GTAO_IP_Logs/
 .vscode/
+.cache
