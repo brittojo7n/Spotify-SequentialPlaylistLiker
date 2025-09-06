@@ -11,7 +11,7 @@ CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
 
 # Playlist ID (replace with your playlist ID)
-PLAYLIST_ID = s.getenv("SPOTIFY_PLAYLIST_ID")
+PLAYLIST_ID = os.getenv("SPOTIFY_PLAYLIST_ID")
 
 SCOPE = "playlist-read-private user-library-read user-library-modify"
 
