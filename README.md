@@ -25,8 +25,8 @@ A Python script to like all songs in a Spotify playlist in the same order as the
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/spotify-playlist-liker.git
-   cd spotify-playlist-liker
+   git clone https://github.com/brittojo7n/Spotify-SequentialPlaylistLiker.git
+   cd Spotify-SequentialPlaylistLiker
    ```
 
 2. **Install Dependencies**:
